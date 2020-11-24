@@ -249,6 +249,12 @@ include('header.php');
           <button type="submit" class="report" name="report" id="report">Report</button>
           </div>
 
+          <div class="matkul">
+          <p class="matkul1">Rekayasa Perangkat Lunak - 3A</p>
+          <button type="submit" class="atur_jadwal" name="atur_jadwal" id="atur_jadwal">Atur Jadwal</button>
+          <button type="submit" class="report" name="report" id="report">Report</button>
+          </div>
+
       </div>
   </div>
       
