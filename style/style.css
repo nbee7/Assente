@@ -1,0 +1,486 @@
+
+.kolom-login {
+    background-color:white;
+    color:black;
+    width: 330px;
+    height: 400px;
+    top: 60%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.gambarprofil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: myriad pro regular;
+}
+
+.kolom-login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: myriad pro regular;
+}
+.kolom-login .rememberme {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: myriad pro regular;
+}
+
+.kolom-login .checkbox {
+    height: 15px;
+    width: 15px;
+}
+
+.kolom-login input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.kolom-login button{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color:rgb(37, 73, 233);
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.kolom-login button:hover {
+    background-color:rgb(0, 47, 255);
+    color: white;
+}
+
+
+
+body {
+    background-color: rgb(242, 242, 242);
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 20px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logout_button {
+    
+    color:rgb(235, 87, 87);
+}
+
+.logo {
+    font-family: Lato;
+    color: #3C64B1;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.text-container p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3) {
+    font-family: myriad pro regular;
+
+    font-size: 14px;
+    color: #000;
+    opacity: 0.6; 
+}
+
+h3{
+    margin: 6px !important;
+    font-size: 19px;
+    opacity: 0.4;
+    line-height: 30px;
+    font-family: myriad pro regular;
+    
+}
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+/*-----------------------Home Dosen-------------------------*/
+.dasar {
+    background-color: rgb(242,242,242);
+    width: 100%;
+    height: 100%;
+}
+
+.profil {
+    
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    height: 150px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.profil img{
+    
+    margin-left: 50px;
+    width: 80px;
+    display: flex;
+}
+
+.profdesc{
+    margin-left: 300px;
+
+}
+.profdesc h2{
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: -280px;
+}
+
+.profdesc p{
+    color: gray;
+    
+    font-size: 13px;
+    margin-left: -280px;
+    font-weight: lighter;
+}
+
+.header1{
+    background-color:rgb(242,242,242);
+    margin-top: 12px;
+    width: 100%;
+    height: 114px;
+ 
+    
+}
+.headerkelashariini {
+    position: relative;
+    top: 30%;
+
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+.absenbox{
+    width: 100%;
+    height: 281px;
+    background-color:rgb(242,242,242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.boxabsen{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    margin: 70px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.boxabsen .bagianatas {
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    background-color: rgb(86, 204, 242);
+    
+}
+
+.bagianatas .namamatkul {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sf pro display;
+    color: black; 
+}
+
+.bagianatas .jammatkul{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: sf pro display;
+    color: black; 
+}
+
+.bagianbawah{
+    display: flex;
+    margin-top: 150px;
+    width: 300px;
+    height: 80px; 
+    padding: 2px;
+    
+    
+    
+    
+}
+.bagianbawah .generatecode{
+    margin-top: 150px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+.bagianbawah input {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    
+    background: rgba(177, 177, 177, 0.267);
+    outline: none;
+    height: 33px;
+    color: black;
+    font-size: 16px;
+    width: 204px; 
+}
+
+.bagianbawah .input_code {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    border: none;
+    
+    background: rgba(177, 177, 177, 0.267);
+    outline: none;
+    height: 33px;
+    color: black;
+    font-size: 16px;
+    width: 171px; 
+}
+
+.bagianbawah button{
+    border: none;
+    outline: none;
+    height: 33px;
+    background-color: rgb(21, 160, 205);
+    color: white;
+    font-size: auto;
+    border-radius: 2px;
+    width: auto;
+    cursor: pointer;
+    transition: 0.2s;
+
+    
+}
+
+.bagianbawah .send_code {
+    font-size: 16px;
+    
+}
+
+.bagianbawah .send_file {
+    margin-left: 4px;
+    float:right;
+    background-color: transparent;
+    position: relative;
+    
+
+    
+}
+
+
+.bagianbawah button:hover {
+    background-color:rgb(8, 149, 196);
+    color: white;
+}
+
+.bagianbawah .send_file:hover{
+    background-color: transparent;
+}
+
+.header2{
+    background-color:rgb(242,242,242);
+    
+    width: 100%;
+    height: 114px;
+    margin-top: 80px;
+
+}
+.headerkelasanda {
+    position: relative;
+    top: 10%;
+
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+.kelasanda{
+   
+    width: 100%;
+    height: 773px;
+}
+
+.matkul {
+    float: left;
+    
+    width: 100%;
+    height: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matkul1 {
+    
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sf pro display;
+    color: black;
+    padding: 20px;
+}
+
+.matkul button{
+    border: none;
+    outline: none;
+    height: 38px;
+    color: white;
+    font-size: 18px auto;
+    border-radius: 2px;
+
+    width: auto;
+    cursor: pointer;
+    transition: 0.2s;
+
+    margin: 5PX;
+}
+
+.matkul .atur_jadwal {
+    background-color:rgb(86, 204, 242);
+}
+
+.matkul .report {
+    background-color:rgb(235, 87, 87);
+}
+
+.atur_jadwal:hover{
+    background-color:rgb(34, 159, 201);
+    color: white;
+}
+
+.report:hover{
+    background-color:rgb(211, 58, 58);
+    color: white;
+}
+
+/*-----------------------SILDER----------------------- */
+
+
+
+
+.slide-img{
+	height: 281px;
+	position:relative;
+}
+.slide-img img{
+	width:100%;
+	height: 281px;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slider{
+    margin-top: -70px;
+	width:100%;
+	height: 281px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*-----------------------SILDER----------------------- */
