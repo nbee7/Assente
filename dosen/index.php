@@ -49,13 +49,12 @@ include('header.php');
                 </div>
 
                 <div class="bagianbawah">
-                    <form action="" method="POST" id="generate_kodeabsen">
+                    <form action="" method="POST" id="generate_kodeabsen1">
                 
                         <p class="generatecode">Generate Code</p>
-                        <input type="text" name="generate_code" id="generate_code" class="input_code">
-                
-                
-                        <button type="submit" name="generate" id="generate">Generate</button>
+                        <input type="text" name="generate_code1" id="generate_code1" class="input_code">
+           
+                        <button type="submit" name="generate" id="generate1">Generate</button>
                     </form>
                 </div>
             </div>
@@ -266,4 +265,8 @@ include('header.php');
 
     </body>
 </html>
+
+<script type="text/javascript" src="../javascript/generate.js"></script>
+<script type="text/javascript" src="../javascript/generate_action.js"></script>
+  
 
