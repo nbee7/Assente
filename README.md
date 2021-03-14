@@ -1,4 +1,4 @@
 # Assente
 Student Attandance Managament System
 
-Project under Construction
+Test UI
